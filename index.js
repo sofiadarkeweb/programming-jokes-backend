@@ -15,7 +15,6 @@ const port = 8000;
 
 const url = "https://v2.jokeapi.dev/joke/Programming,Pun?safe-mode&type=";
 
-// API endpoint to fetch jokes
 app.get("/jokes", (req, res) => {
   const { type, amount } = req.query;
   const apiUrl = `${url}${type}&amount=${amount}`;
