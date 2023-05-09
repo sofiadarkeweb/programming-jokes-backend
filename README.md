@@ -7,8 +7,9 @@ Set up the backend using Node.js and Express. Including the parameters type and 
 I have created an API endpoint that can fetch jokes from the endpoint (https://v2.jokeapi.dev/joke/Programming,Pun?safe-mode).
 
 ## To run this locally
+To install and start the server.
 
 #### npm install
-#### npm run dev (starts nodemon) or npm start (start 
+#### npm run dev (starts nodemon) or npm start
 
-This should start the server.
+
